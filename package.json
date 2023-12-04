@@ -1,0 +1,19 @@
+{
+  "name": "learn-webpack",
+  "version": "1.0.0",
+  "description": "Webpack is a static javascript module bundler. Its also help in transpiling \r the code with help of babel. It help to include assests to the bundle as well\r Also provide development derver  which can update the modules and styles on the fly",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode=development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "html-webpack-plugin": "^5.5.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
